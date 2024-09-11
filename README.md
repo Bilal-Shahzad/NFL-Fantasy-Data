@@ -60,7 +60,7 @@ This cumulative performance chart compares player scores throughout the matchup.
 Analysis:
 
 My team consistently outscored the opponent, with spikes in performance from De'Von Achane and AJ Brown, which were crucial in maintaining a lead.
-The opponent’s team, particularly Mahomes and Jacobs, fell short, contributing to a flatter performance curve overall.
+The opponent’s team, particularly Pat Mahomes and Josh Jacobs, fell short, contributing to a flatter performance curve overall.
 
 Key Takeaway: My team consistently outperformed the opponent across multiple positions, and the performance peaks for wide receivers provided a decisive advantage.
 
@@ -72,14 +72,14 @@ This bar chart highlights the top 5 players who exceeded their projected points.
 
 Analysis:
 
-D. Achane (WR) led with a +7.00 point variance, followed by AJ Brown (WR) with +5.20 points.
+De'Von Achane (WR) led with a +7.00 point variance, followed by AJ Brown (WR) with +5.20 points.
 These players were critical to my team’s success, adding significant value beyond their initial projections.
 
 Key Takeaway: Investing in wide receivers and running backs paid off in this matchup, as they significantly outperformed expectations and contributed to the win.
 
 # 5. Top 5 Underperformers
 
-![Alt text])
+![Alt text](./Underperformers.png)
 
 This chart identifies the players who performed below their projections.
 
@@ -96,6 +96,8 @@ Key Takeaway: Despite some underperformance on both sides, the opponent’s majo
 
 # Bench Projected vs Actual Points 
 
+![Alt text](./BenchProj.png)
+
 This chart compares the projected and actual points for both teams, showing how players performed relative to their projections. Several key insights stand out:
 
 Joe Mixon (RB): Mixon had a huge game, scoring 30.60 points, far exceeding his projected 13.83 points. Had he been started instead of another running back, this could have provided a significant boost to my total score. This resulted in a +16.77 point variance, one of the largest missed opportunities.
@@ -104,9 +106,9 @@ Aaron Rodgers (QB): Although Aaron Rodgers was projected to score 22.38 points, 
 
 Devin Singletary (RB) - Go Giants! : Singletary performed well, scoring 9.60 points, which was close to his projection of 11.61 points. While he didn't outperform his projection, the decision to bench him did not result in significant missed points.
 
-J Simmons (Starter): Simmons underperformed slightly, scoring 2.50 points compared to his projected 2.74 points. However, the difference here is minimal, and starting him was a sound choice.
+Justin Simmons (DB/Starter): Simmons underperformed slightly, scoring 2.50 points compared to his projected 2.74 points. However, the difference here is minimal, and starting him was a sound choice.
 
-K. Murray (Starter): Murray slightly underperformed, scoring 1.50 points against a projection of 2.79 points, but again, this decision didn't lead to a significant missed opportunity.
+Kenneth Murray (DB/Starter): Ken Murray slightly underperformed, scoring 1.50 points against a projection of 2.79 points, but again, this decision didn't lead to a significant missed opportunity.
 
 # 2. Variance in Points (My Team vs Opponent)
 
@@ -114,13 +116,16 @@ This chart highlights where players exceeded or fell short of their projected po
 
 Top Overperformers:
 
-J. Mixon (Bench) had the largest positive variance with +16.77 points over his projection, indicating a significant missed opportunity.
+Joe Mixon (Bench) had the largest positive variance with +16.77 points over his projection, indicating a significant missed opportunity.
 J. McMillan (Opponent): McMillan outperformed expectations with a +2.48 point variance, scoring 10.20 points over a projected 7.72 points.
+
 Top Underperformers:
 
 Aaron Rodgers (Bench): With an underperformance of -8.34 points, Rodgers' actual score of 14.04 was well below his 22.38 point projection. Keeping him on the bench was a correct decision.
-T. Johnson (Starter): Johnson's actual points came in at only 0.20 compared to his projection of 2.74, showing a significant underperformance.
-T. Tuipulotu (Opponent): Tuipulotu failed to score any points despite a projected 3.22, which helped to keep my opponent's score lower
+
+Taron Johnson (DB/Starter): Johnson's actual points came in at only 0.20 compared to his projection of 2.74, showing a significant underperformance due to his unfortunate injury.
+
+Tuli Tuipulotu (Opponent/DL/Bench): Tuipulotu failed to score any points despite a projected 3.22, which helped to keep my opponent's score lower
 
 ## Conclusion
 
