@@ -1,15 +1,15 @@
-const { ChartJSNodeCanvas } = require('chartjs-node-canvas');
+const { createCanvas } = require('canvas');
+const Chart = require('chart.js');
 const fs = require('fs');
-
-const width = 800; // Width of the chart
-const height = 600; // Height of the chart
-
-const chartJSNodeCanvas = new ChartJSNodeCanvas({ width, height });
-
-// Example data from your projections
+xw
 async function generateChart(projections) {
-    const weeklyProjections = projections.map(projection => projection.points); // Adjust as necessary
-    const labels = projections.map(projection => `Week ${projection.week}`); // Adjust as necessary
+    const width = 800;
+    const height = 600;
+    const canvas = createCanvas(width, height);
+    const ctx = canvas.getContext('2d');
+
+    const weeklyProjections = projections.map(projection => projection.points); // Adjust based on actual data structure
+    const labels = projections.map(projection => `Week ${projection.week}`); // Adjust based on actual data structure
 
     const configuration = {
         type: 'line',
@@ -26,16 +26,11 @@ async function generateChart(projections) {
         },
     };
 
-    try {
-        const imageBuffer = await chartJSNodeCanvas.renderToBuffer(configuration);
-        fs.writeFileSync('team_projections_chart.png', imageBuffer);
-        console.log('Chart saved as team_projections_chart.png');
-    } catch (error) {
-        console.error('Error generating chart:', error);
-    }
+    new Chart(ctx, configuration);
+
+    const buffer = canvas.toBuffer('image/png');
+    fs.writeFileSync('team_projections_chart.png', buffer);
+    console.log('Chart saved as team_projections_chart.png');
 }
 
-// Example usage
-fetchTeamProjections().then(projections => {
-    generateChart(projections);
-});
+// Fetch data and generate chart as previously outlined
