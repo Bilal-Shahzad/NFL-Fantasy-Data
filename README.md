@@ -112,6 +112,8 @@ Kenneth Murray (DB/Starter): Ken Murray slightly underperformed, scoring 1.50 po
 
 # 2. Variance in Points (My Team vs Opponent)
 
+![Alt text](./BenchVariance.png)
+
 This chart highlights where players exceeded or fell short of their projected points:
 
 Top Overperformers:
